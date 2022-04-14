@@ -214,6 +214,10 @@ border: none;
 width: 95px;
 margin-bottom: 20px;
 }
+#btn1:hover, #btn2:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out;
+}
 
 .grid-buttons button a{
     font: normal normal bold 15px/37px FS Albert;
